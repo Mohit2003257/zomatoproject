@@ -1,0 +1,31 @@
+
+.filterPart{
+    margin: auto;
+    height: 60px;
+    margin-top: 1.5%;
+    width: 85%;
+    /* border: 3px solid black; */
+}
+
+.minicard{
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    justify-content: space-between;
+    margin-top: 2%;
+    background-color: rgb(239, 240, 208);
+}
+
+#caroBoxes{
+    width: 170px;
+    margin-left: 3%;
+    border-radius: 50%;
+}
+
+#caroBoxes>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

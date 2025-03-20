@@ -1,0 +1,82 @@
+
+.cartBox{
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    width: 80%;
+    height: 100px;
+    display: flex;
+}
+
+.cartBox>img{
+    width: 14%;
+    height: 100%;
+}
+
+.cartBox>p{
+    margin-top: 3%;
+    font-size: 24px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartBox>div{
+    display: flex;
+    height: 38%;
+    width: 14%;
+    margin-top: 2.5%;
+    justify-content: space-between;
+}
+
+.cartBox>div>h1{
+    margin-top: -1%;
+}
+
+.cartBox>div>button{
+    padding: 0% 9%;
+    font-size: 22px;
+    background-color: rgb(194, 240, 187);
+    border-radius: 2px;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.cartBox>button{
+    margin-top: 2.5%;
+    height: 40%;
+    border: none;
+    width: 8%;
+    border-radius: 5px;
+    background-color: rgb(209, 22, 22);
+    color: rgb(248, 248, 247);
+}
+
+hr{
+    margin-top: 4%;
+}
+
+.totalDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;
+    margin-top: 2%;
+    height: 60px;
+    width: 28%;
+}
+
+.totalDiv>p{
+    font-size: 30px;
+    margin-top: 2%;
+    color: rgb(5, 3, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.totalDiv>button{
+    margin-top: 2.5%;
+    height: 80%;
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    background-color: rgb(60, 128, 33);
+    color: rgb(255, 255, 255);
+}
